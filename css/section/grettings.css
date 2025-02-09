@@ -1,20 +1,55 @@
 .grettings {
-    background-image: url(../../img/grettings/IMAGE.png)
+    background: url(../../img/grettings/IMAGE.png) no-repeat center/cover;
+    padding-top: 30px;
+
 }
 
-.container {}
 
-.header {}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {}
 
 .nav {}
 
-.nav_list {}
+.nav_list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
 
-.nav__item {}
 
-.square {}
+.nav__item a {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+
+}
+
+
+
+.nav__item a:hover {
+    color: var(--colorgreen5);
+}
+
+.nav__item:last-child {
+    padding: 11px 17px;
+    border: 2px solid white;
+    border-radius: 4px;
+
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
 
 .grettings__content {}
 
