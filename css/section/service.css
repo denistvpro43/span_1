@@ -1,0 +1,43 @@
+.service {
+    margin-top: 132px;
+}
+
+.container {}
+
+.service__info {
+    max-width: 507px;
+}
+
+.info {}
+
+.service__list {
+    display: flex;
+    gap: 19px;
+    margin-top: 54px;
+}
+
+.service__card {
+    padding: 51px 64px 109px 41px;
+    border: 1px solid#f7f7f7;
+    box-shadow: 8px 10px 0px rgba(128, 128, 128, 0.882);
+}
+
+.service__icon {}
+
+.service__title {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+}
+
+.service__text {
+    font-family: var(--fontABM);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 171%;
+    color: #999;
+    margin-top: 13px;
+
+}
