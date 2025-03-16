@@ -19,7 +19,7 @@
 .service__card {
     padding: 51px 64px 109px 41px;
     border: 1px solid#f7f7f7;
-    box-shadow: 8px 10px 0px rgba(128, 128, 128, 0.882);
+    box-shadow: 8px 10px 0px rgba(128, 128, 128, 0.589);
 }
 
 .service__icon {}
