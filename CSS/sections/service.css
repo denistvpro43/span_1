@@ -1,4 +1,4 @@
-.service{
+.service {
     margin-top: 132px;
 }
 
@@ -36,4 +36,25 @@
     font-size: 14px;
     line-height: 171%;
     color: #999;
+}
+
+
+@media(max-width:950px) {
+    .service__list {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-top: 50px;
+    }
+}
+
+
+@media(max-width:450px) {
+    .service__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }

@@ -15,11 +15,14 @@ body,
 html {
     height: 100%;
     background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1178px;
     margin: 0 auto;
+
+    padding: 0 10px;
 }
 
 a {
@@ -77,4 +80,8 @@ ol {
     text-transform: uppercase;
     text-align: center;
     color: #5ab963;
+}
+
+img {
+    max-width: 100%;
 }

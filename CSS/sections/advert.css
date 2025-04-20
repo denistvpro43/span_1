@@ -22,3 +22,11 @@
 .advert__link {
     margin-top: 33px;
 }
+
+
+
+@media(max-width:800px) {
+    .advert__contant {
+        margin-top: 70px;
+    }
+}
